@@ -17,22 +17,23 @@ export default {
   <section class="container">
     <div class="row">
       <div class="col-4">
-        <h5>Su di noi</h5>
+        <h6>Su di noi</h6>
         <AppFooterInformazioni />
       </div>
       <div class="col-4">
-        <h5 class="ms-5">Contattaci</h5>
+        <h6 class="ms-5">Contattaci</h6>
         <AppFooterContatti class="ms-3" />
       </div>
       <div class="col-4">
-        <h5 class="ms-5">Privacy e Sicurezza</h5>
+        <h6 class="ms-5">Privacy e Sicurezza</h6>
         <AppFooterPrivacy class="ms-3" />
       </div>
     </div>
   </section>
 </template>
 <style lang="scss" scoped>
-h5 {
-  color: white;
+h6 {
+  color: #00418e;
+  font-weight: bold;
 }
 </style>

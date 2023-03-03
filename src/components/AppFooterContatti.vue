@@ -16,11 +16,11 @@ export default {
       </li>
       <li class="mb-4">
         <h6>Sito internet:</h6>
-        <small>https://www.gogo.gmail.com</small>
+        <a href=""><small>www.artists.com</small></a>
       </li>
       <li class="mb-4">
         <h6>La nostra email:</h6>
-        <small>art_hub@gmail.com</small>
+        <a href=""><small>art_hub@gmail.com</small></a>
       </li>
     </ul>
   </section>
@@ -32,6 +32,9 @@ h6 {
 ul {
   list-style-type: none;
   margin-top: 1.25rem;
+}
+a {
+  text-decoration: none;
 }
 small {
   color: #e5e5e5;

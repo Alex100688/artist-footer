@@ -10,9 +10,9 @@ export default {
 };
 </script>
 <template>
-  <div class="container">
+  <div class="container text-center">
     <!-- dove c'è scritto Logo ci vuole il logo -->
-    <p class="text-center logo mb-5">Logo</p>
+    <img class="img-fluid mb-5" src="../assets/logowhite.png" alt="" />
     <AppFooterTop />
     <AppFooterBottom class="mt-5" />
   </div>

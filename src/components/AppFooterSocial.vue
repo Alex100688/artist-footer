@@ -14,23 +14,23 @@ export default {
 <template>
   <section class="container">
     <div class="row">
-      <div class="col">
-        <h5>I nostri canali social:</h5>
-        <AppListaSocial class="" />
+      <div class="col-4">
+        <h6>I nostri canali social:</h6>
+        <AppListaSocial />
       </div>
-      <div class="col">
-        <h5>Le vostre domande frequenti:</h5>
-        <AppFooterDomande />
+      <div class="col-4">
+        <h6 class="ms-5">Le vostre domande frequenti:</h6>
+        <AppFooterDomande class="ms-3" />
       </div>
-      <div class="col">
-        <h5 class="ms-5">Le migliori risposte:</h5>
+      <div class="col-4">
+        <h6 class="ms-5">Le migliori risposte:</h6>
         <AppFooterRisposte class="ms-3" />
       </div>
     </div>
   </section>
 </template>
 <style lang="scss" scoped>
-h5 {
-  color: white;
+h6 {
+  color: #00418e;
 }
 </style>

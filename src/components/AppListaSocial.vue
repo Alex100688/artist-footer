@@ -5,24 +5,23 @@ export default {
 </script>
 <template>
   <section class="container">
-    <div class="row">
-      <div class="col-3 my-3">
-        <i class="fa-brands fa-facebook fb"></i>
-        <i class="fa-brands fa-instagram ig"></i>
-        <i class="fa-brands fa-youtube yt"></i>
-        <i class="fa-brands fa-linkedin ld"></i>
-      </div>
-    </div>
+    <a href=""><i class="fa-brands fa-facebook fb"></i></a>
+    <a href=""><i class="fa-brands fa-instagram ig"></i></a>
+    <a href=""><i class="fa-brands fa-youtube yt"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin ld"></i></a>
   </section>
 </template>
 <style lang="scss" scoped>
+a {
+  text-decoration: none;
+}
 .fb,
 .ig,
 .ld,
 .yt {
   margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
-  margin-left: 0.1875rem;
+  margin-left: 0.625rem;
+  padding-right: 0.3125rem;
   font-size: 1.875rem;
 }
 .ig,
