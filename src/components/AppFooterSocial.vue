@@ -23,8 +23,8 @@ export default {
         <AppFooterDomande />
       </div>
       <div class="col">
-        <h5>Le migliori risposte:</h5>
-        <AppFooterRisposte />
+        <h5 class="ms-5">Le migliori risposte:</h5>
+        <AppFooterRisposte class="ms-3" />
       </div>
     </div>
   </section>

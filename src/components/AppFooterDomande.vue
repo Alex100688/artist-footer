@@ -13,6 +13,9 @@ export default {
   </section>
 </template>
 <style lang="scss" scoped>
+ul {
+  list-style: none;
+}
 li {
   color: white;
 }
